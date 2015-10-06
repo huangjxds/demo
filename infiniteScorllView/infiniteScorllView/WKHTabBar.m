@@ -122,7 +122,7 @@
     CGFloat offsetX = selectedButton.frame.origin.x - centerX;
     CGPoint toPoint = CGPointMake(_topScrollView.contentOffset.x + offsetX, 0);
     [_topScrollView setContentOffset:toPoint animated: animated];
-   
+    NSLog(@"test");
     
 }
 
