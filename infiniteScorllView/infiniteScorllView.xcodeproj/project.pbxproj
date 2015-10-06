@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9110725C1BB6B5ED00698657 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9110725B1BB6B5ED00698657 /* main.m */; };
+		9110725F1BB6B5ED00698657 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9110725E1BB6B5ED00698657 /* AppDelegate.m */; };
+		911072621BB6B5ED00698657 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 911072611BB6B5ED00698657 /* ViewController.m */; };
+		911072651BB6B5ED00698657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 911072631BB6B5ED00698657 /* Main.storyboard */; };
+		911072671BB6B5ED00698657 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911072661BB6B5ED00698657 /* Images.xcassets */; };
+		9110726A1BB6B5ED00698657 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 911072681BB6B5ED00698657 /* LaunchScreen.xib */; };
+		911072761BB6B5ED00698657 /* infiniteScorllViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 911072751BB6B5ED00698657 /* infiniteScorllViewTests.m */; };
+		911072811BB6F79C00698657 /* WKHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 911072801BB6F79C00698657 /* WKHTabBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		911072701BB6B5ED00698657 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9110724E1BB6B5EC00698657 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 911072551BB6B5ED00698657;
+			remoteInfo = infiniteScorllView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		911072561BB6B5ED00698657 /* infiniteScorllView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = infiniteScorllView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9110725A1BB6B5ED00698657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9110725B1BB6B5ED00698657 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9110725D1BB6B5ED00698657 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9110725E1BB6B5ED00698657 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		911072601BB6B5ED00698657 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		911072611BB6B5ED00698657 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		911072641BB6B5ED00698657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		911072661BB6B5ED00698657 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		911072691BB6B5ED00698657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9110726F1BB6B5ED00698657 /* infiniteScorllViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = infiniteScorllViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		911072741BB6B5ED00698657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		911072751BB6B5ED00698657 /* infiniteScorllViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = infiniteScorllViewTests.m; sourceTree = "<group>"; };
+		9110727F1BB6F79C00698657 /* WKHTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKHTabBar.h; sourceTree = "<group>"; };
+		911072801BB6F79C00698657 /* WKHTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKHTabBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		911072531BB6B5ED00698657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9110726C1BB6B5ED00698657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9110724D1BB6B5EC00698657 = {
+			isa = PBXGroup;
+			children = (
+				911072581BB6B5ED00698657 /* infiniteScorllView */,
+				911072721BB6B5ED00698657 /* infiniteScorllViewTests */,
+				911072571BB6B5ED00698657 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		911072571BB6B5ED00698657 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				911072561BB6B5ED00698657 /* infiniteScorllView.app */,
+				9110726F1BB6B5ED00698657 /* infiniteScorllViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		911072581BB6B5ED00698657 /* infiniteScorllView */ = {
+			isa = PBXGroup;
+			children = (
+				9110725D1BB6B5ED00698657 /* AppDelegate.h */,
+				9110725E1BB6B5ED00698657 /* AppDelegate.m */,
+				911072601BB6B5ED00698657 /* ViewController.h */,
+				911072611BB6B5ED00698657 /* ViewController.m */,
+				911072631BB6B5ED00698657 /* Main.storyboard */,
+				911072661BB6B5ED00698657 /* Images.xcassets */,
+				911072681BB6B5ED00698657 /* LaunchScreen.xib */,
+				911072591BB6B5ED00698657 /* Supporting Files */,
+				9110727F1BB6F79C00698657 /* WKHTabBar.h */,
+				911072801BB6F79C00698657 /* WKHTabBar.m */,
+			);
+			path = infiniteScorllView;
+			sourceTree = "<group>";
+		};
+		911072591BB6B5ED00698657 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9110725A1BB6B5ED00698657 /* Info.plist */,
+				9110725B1BB6B5ED00698657 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		911072721BB6B5ED00698657 /* infiniteScorllViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				911072751BB6B5ED00698657 /* infiniteScorllViewTests.m */,
+				911072731BB6B5ED00698657 /* Supporting Files */,
+			);
+			path = infiniteScorllViewTests;
+			sourceTree = "<group>";
+		};
+		911072731BB6B5ED00698657 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				911072741BB6B5ED00698657 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		911072551BB6B5ED00698657 /* infiniteScorllView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 911072791BB6B5ED00698657 /* Build configuration list for PBXNativeTarget "infiniteScorllView" */;
+			buildPhases = (
+				911072521BB6B5ED00698657 /* Sources */,
+				911072531BB6B5ED00698657 /* Frameworks */,
+				911072541BB6B5ED00698657 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = infiniteScorllView;
+			productName = infiniteScorllView;
+			productReference = 911072561BB6B5ED00698657 /* infiniteScorllView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9110726E1BB6B5ED00698657 /* infiniteScorllViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9110727C1BB6B5ED00698657 /* Build configuration list for PBXNativeTarget "infiniteScorllViewTests" */;
+			buildPhases = (
+				9110726B1BB6B5ED00698657 /* Sources */,
+				9110726C1BB6B5ED00698657 /* Frameworks */,
+				9110726D1BB6B5ED00698657 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				911072711BB6B5ED00698657 /* PBXTargetDependency */,
+			);
+			name = infiniteScorllViewTests;
+			productName = infiniteScorllViewTests;
+			productReference = 9110726F1BB6B5ED00698657 /* infiniteScorllViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9110724E1BB6B5EC00698657 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = wong;
+				TargetAttributes = {
+					911072551BB6B5ED00698657 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					9110726E1BB6B5ED00698657 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 911072551BB6B5ED00698657;
+					};
+				};
+			};
+			buildConfigurationList = 911072511BB6B5EC00698657 /* Build configuration list for PBXProject "infiniteScorllView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9110724D1BB6B5EC00698657;
+			productRefGroup = 911072571BB6B5ED00698657 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				911072551BB6B5ED00698657 /* infiniteScorllView */,
+				9110726E1BB6B5ED00698657 /* infiniteScorllViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		911072541BB6B5ED00698657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911072651BB6B5ED00698657 /* Main.storyboard in Resources */,
+				9110726A1BB6B5ED00698657 /* LaunchScreen.xib in Resources */,
+				911072671BB6B5ED00698657 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9110726D1BB6B5ED00698657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		911072521BB6B5ED00698657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911072621BB6B5ED00698657 /* ViewController.m in Sources */,
+				911072811BB6F79C00698657 /* WKHTabBar.m in Sources */,
+				9110725F1BB6B5ED00698657 /* AppDelegate.m in Sources */,
+				9110725C1BB6B5ED00698657 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9110726B1BB6B5ED00698657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911072761BB6B5ED00698657 /* infiniteScorllViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		911072711BB6B5ED00698657 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 911072551BB6B5ED00698657 /* infiniteScorllView */;
+			targetProxy = 911072701BB6B5ED00698657 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		911072631BB6B5ED00698657 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				911072641BB6B5ED00698657 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		911072681BB6B5ED00698657 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				911072691BB6B5ED00698657 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		911072771BB6B5ED00698657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		911072781BB6B5ED00698657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9110727A1BB6B5ED00698657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wei Feng Hou (9664RHS9A8)";
+				INFOPLIST_FILE = infiniteScorllView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9110727B1BB6B5ED00698657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = infiniteScorllView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9110727D1BB6B5ED00698657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = infiniteScorllViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/infiniteScorllView.app/infiniteScorllView";
+			};
+			name = Debug;
+		};
+		9110727E1BB6B5ED00698657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = infiniteScorllViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/infiniteScorllView.app/infiniteScorllView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		911072511BB6B5EC00698657 /* Build configuration list for PBXProject "infiniteScorllView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				911072771BB6B5ED00698657 /* Debug */,
+				911072781BB6B5ED00698657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		911072791BB6B5ED00698657 /* Build configuration list for PBXNativeTarget "infiniteScorllView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9110727A1BB6B5ED00698657 /* Debug */,
+				9110727B1BB6B5ED00698657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9110727C1BB6B5ED00698657 /* Build configuration list for PBXNativeTarget "infiniteScorllViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9110727D1BB6B5ED00698657 /* Debug */,
+				9110727E1BB6B5ED00698657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9110724E1BB6B5EC00698657 /* Project object */;
+}
